@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.body {
+    position: relative;
+}
+body {
+    background-color: #95F9FF;
+    min-height: 100vh;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(./Group\ 14.svg);
+}
+    
+.container {
+    /* width: fit-content; */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.p {
+    margin-top: 20px;
+    font-size: 48px;
+    font-weight: 400;
+    color: #FF0000;
+    width: fit-content;
+    margin-inline: auto;
+}
+
+.p2 {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    color: #FF9900;
+    font-size: 32px;
+    font-weight: 500;
+    width: fit-content;
+    border-radius: 30px;
+}
+
+.p3 {
+    margin-top: 20px;
+    font-size: 48px;
+    font-weight: 500;
+    color: #04B000;
+    width: fit-content;
+    margin-inline: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.p4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    row-gap: 90px;
+    margin-top: 70px;
+    /* position: absolute; */
+}
+
+.el {
+    background-color: #990093;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 30px;
+
+}
+
+.gr1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.gr2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.gr3 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    height: 100px;
+    font-size: 18px;
+    color: white;
+    background-color: #990093;
+    padding-inline: 20px;
+}
+
+.love {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .des {
+} */
+
+
+
+
+
+
+.n1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    width: 360px;
+    padding: 20px;
+    height: fit-content;
+    background-color: white;
+    text-overflow: clip;
+    display: none;
+    word-wrap: break-word;
+    border-radius: 30px;
+    font-size: 30px;
+    color: #04B000;
+}
+
